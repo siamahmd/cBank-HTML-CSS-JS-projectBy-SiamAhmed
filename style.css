@@ -5,21 +5,6 @@
   --main-orange: #c8553d;
   --main-green: #183a37;
   --main-gray: #dad7cd;
-
-  --bg-color: #3b5249;
-  --font-black: #252422;
-
-  --light: #f9f9f9;
-  --blue: #3c91e6;
-  --light-blue: #cfe8ff;
-  --grey: #eee;
-  --dark-grey: #aaaaaa;
-  --dark: #342e37;
-  --red: #db504a;
-  --yellow: #ffce26;
-  --light-yellow: #fff2c6;
-  --orange: #fd7238;
-  --light-orange: #ffe0d3;
 }
 
 *,
@@ -299,42 +284,6 @@ ul li {
   outline: none;
   color: var(--dark);
 }
-
-/* #navbar form {
-  max-width: 400px;
-  width: 100%;
-  margin-right: auto;
-}
-#navbar form .form-input {
-  display: flex;
-  align-items: center;
-  height: 36px;
-}
-#navbar form .form-input input {
-  flex-grow: 1;
-  padding: 0 16px;
-  height: 100%;
-  border: none;
-  background: var(--grey);
-  border-radius: 36px 0 0 36px;
-  outline: none;
-  width: 100%;
-  color: var(--dark);
-}
-#navbar form .form-input button {
-  width: 36px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--blue);
-  color: var(--light);
-  font-size: 18px;
-  border: none;
-  outline: none;
-  border-radius: 0 36px 36px 0;
-  cursor: pointer;
-} */
 
 /* NAVBAR */
 

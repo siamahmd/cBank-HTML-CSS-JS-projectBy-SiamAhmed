@@ -141,7 +141,6 @@ const generateUsernames = function (accs) {
 generateUsernames(accounts);
 
 console.log(account1.owner);
-
 ////////////  Show Name and email
 
 const showUserDetails = function (acc) {
