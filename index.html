@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cBank" />
+    <title>cBank</title>
+    <link type="image/png" sizes="96x96" rel="icon" href="/icon.png">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <section class="login" id="login">
+        <div class="login-container">
+            <form action="">
+                <input type="text" placeholder="user" class="login-user" />
+                <input type="text" placeholder="PIN" maxlength="4" class="login-pin" />
+                <button type="submit" class="login-btn">Log In</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <!-- SIDEBAR -->
+    <section id="sidebar" class="sidebar">
+        <div class="brand">
+            <img id="logo" class="brand_name" src="logo.png" alt="cBank Logo">
+            <a class="brand_name" href="#">cBank</a>
+        </div>
+        <div class="profile">
+            <img src="" alt="" id="profile-image" class="profile-image">
+            <h1 class="profile-name">John William</h1>
+            <a href="" class="mail">johnwilliam@mail.com</a>
+        </div>
+        <ul class="side-menu top">
+            <li class="active">
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-shopping-bag-alt'></i>
+                    <span class="text">My Store</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-doughnut-chart'></i>
+                    <span class="text">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-dots'></i>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-group'></i>
+                    <span class="text">Team</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog'></i>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+    <div id="main_body" class="main-body">
+        <nav id="navbar" class="navbar">
+            <div class="form-input">
+                <i class='toggler bx bx-grid-alt'></i>
+                <input type="search" placeholder="Search...">
+                <button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+            </div>
+            <div class="form-input-login">
+                <form>
+                    <button type="submit" class="logout-btn">Log Out</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="dashboard_content">
+            <div class="intro-section">
+                <h3 class="user">Wellcome Back, John</h3>
+            </div>
+            <section>
+                <div class="statistic-section">
+                    <div class="current-balance">
+                        Hello
+                    </div>
+                    <div class="other-statistics">
+                        <div class="box income">
+                            income
+                        </div>
+                        <div class="box outcome">
+                            outcome
+                        </div>
+                        <div class="box bonous">
+                            bonus
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="bottom_section">
+                    <!-- MOVEMENTS -->
+                    <div class="movements">
+                        <div class="movements__row">
+                            <div class="movements__type movements__type--deposit">2 deposit</div>
+                            <div class="movements-value">4 000€</div>
+                        </div>
+                        <div class="movements__row">
+                            <div class="movements__type movements__type--withdrawal">
+                                1 withdrawal
+                            </div>
+                            <div class="movements__value">-378 €</div>
+                        </div>
+
+                    </div>
+                    <div class="transfar_options">
+                        <div class="">
+                            <h2>Transfer money</h2>
+                            <form class="">
+                                <input type="text" class="" />
+                                <input type="number" class="" />
+                                <button class="">&rarr;</button>
+                                <label class="">Transfer to</label>
+                                <label class="">Amount</label>
+                            </form>
+                        </div>
+
+                        <div class="">
+                            <h2>Request loan</h2>
+                            <form class="">
+                                <input type="number" class="" />
+                                <button class="">&rarr;</button>
+                                <label class="">Amount</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
