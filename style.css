@@ -33,13 +33,14 @@ ul li {
 
 .sidebar,
 .main-body {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.5s ease-in;
 }
 
 /* Starter Log in */
 
 .login {
+  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,6 +88,8 @@ ul li {
 .brand_name.hide {
   display: none;
 }
+
+/* SIDEBAR */
 
 .sidebar .profile {
   width: 100%;
@@ -197,8 +200,6 @@ ul li {
   display: flex;
   justify-content: center;
 }
-
-/* SIDEBAR */
 
 #main_body {
   position: relative;
@@ -383,15 +384,37 @@ ul li {
   margin-left: auto;
 }
 
+/* TRANSFAR OPTIONS */
+
 .transfar_options {
+  text-align: center;
+  height: 400px;
   background: #666;
-  padding: 100px 0px;
   flex: 0 0 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  gap: 20px;
 }
+.transfar_options form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.transfar_options input,
+.transfar_options input:focus {
+  width: 40%;
+  font-size: 16px;
+  padding: 10px 0px 10px 8px;
+  margin: 5px 0 0 0;
+  border: 3px solid #4d194d;
+  outline: none;
+  border-radius: 5px;
+  background: #e0ddcf;
+}
+
+/* TRANSFAR OPTIONS */
 
 /* Media Queries */
 
