@@ -118,7 +118,7 @@ const displayMovements = function (movements) {
       <div class="movements__row">
         <div class="movements__type movements__type--${type}">${
       i + 1
-    } ${type}</div>
+    } . ${type}</div>
         <div class="movements-value">${mov} 💰</div>
       </div>
     `;

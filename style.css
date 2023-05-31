@@ -319,6 +319,15 @@ ul li {
   align-items: center;
   justify-content: flex-start;
 }
+.current-balance .box {
+  color: #eee;
+  width: 50%;
+  height: 150px;
+  background: #4d194d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .other-statistics {
   flex: 0 0 49%;
   display: flex;
@@ -332,6 +341,7 @@ ul li {
   height: 100px;
   background: #f0f0f0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -345,31 +355,39 @@ ul li {
 
 /* MOVEMENTS */
 .movements {
-  background-color: #39b385;
-  border-radius: 1rem;
   overflow: scroll;
+  overflow-x: hidden;
   flex: 0 0 50%;
   height: 400px;
 }
 
 .movements__row {
-  padding: 2.25rem 4rem;
+  /* padding: 2.25rem 4rem; */
+  height: 60px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 
 .movements__type {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #fff;
-  padding: 0.1rem 1rem;
-  border-radius: 10rem;
-  margin-right: 2rem;
+  background-color: #39b385;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .movements-value {
   background: orange;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .movements__date {
@@ -390,6 +408,20 @@ ul li {
 .movements__value {
   font-size: 12px;
   margin-left: auto;
+}
+
+#movements::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  background-color: #f5f5f5;
+}
+
+#movements::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+#movements::-webkit-scrollbar-thumb {
+  background-color: #183a37;
 }
 
 /* TRANSFAR OPTIONS */
