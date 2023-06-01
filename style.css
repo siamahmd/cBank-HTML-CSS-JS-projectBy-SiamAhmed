@@ -58,8 +58,9 @@ ul li {
   transition: opacity 0.3s ease-in;
 }
 .login-container {
-  border: 2px solid green;
+  border: 5px solid var(--gray);
   padding: 100px;
+  border-radius: 10px;
 }
 .login-container form {
   display: flex;
@@ -67,6 +68,26 @@ ul li {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+}
+
+.login-container input,
+.login-container input:focus {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 0px 10px 8px;
+  margin: 5px 0 0 0;
+  border: 3px solid #4d194d;
+  outline: none;
+  border-radius: 5px;
+  background: #e0ddcf;
+}
+.login-btn {
+  width: 80px;
+  height: 40px;
+  background: var(--main-yellow);
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* SIDEBAR */
@@ -288,13 +309,13 @@ h1 {
   flex-grow: 1;
   padding: 0 16px;
   height: 100%;
-  border: 3px solid var(--main-yellow);
+  border: 3px solid var(--gray);
   background: var(--grey);
   border-radius: 36px 0 0 36px;
   outline: none;
   width: 100%;
   color: var(--dark);
-  margin-left: 20px;
+  margin-left: 30px;
 }
 #navbar .form-input .search-btn {
   width: 36px;
@@ -302,7 +323,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--main-yellow);
+  background: var(--gray);
   color: var(--light);
   font-size: 18px;
   border: none;
@@ -491,7 +512,7 @@ h1 {
 
 .movements__type--deposit {
   /* background-image: linear-gradient(to top left, #39b385, #9be15d); */
-  background: #43aa8b;
+  background: #0ead69;
 }
 
 .movements__type--withdrawal {
@@ -521,9 +542,9 @@ h1 {
   background: var(--green-60);
   flex: 0 0 50%;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: center;
   justify-content: center;
-  gap: 20px;
 }
 .transfar_options form {
   display: flex;
@@ -541,6 +562,24 @@ h1 {
   outline: none;
   border-radius: 5px;
   background: #e0ddcf;
+}
+
+.transfar-op-one button {
+  width: 80px;
+  height: 40px;
+  background: var(--main-yellow);
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.transfar-op-two button {
+  width: 80px;
+  height: 40px;
+  background: var(--main-yellow);
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* TRANSFAR OPTIONS */

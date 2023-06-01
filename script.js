@@ -184,6 +184,7 @@ logoutBtn.addEventListener('click', function (e) {
   sideBar.style.opacity = 0;
   mainBody.style.opacity = 0;
   loginContainer.style.opacity = 1;
+  document.querySelector('body').style.background = '#132a13';
 
   loginUsername.value = '';
   loginPin.value = '';
