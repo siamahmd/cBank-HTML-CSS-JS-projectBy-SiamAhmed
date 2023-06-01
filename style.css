@@ -76,10 +76,10 @@ ul li {
   font-size: 16px;
   padding: 10px 0px 10px 8px;
   margin: 5px 0 0 0;
-  border: 3px solid #4d194d;
+  border: 3px solid var(--gray);
   outline: none;
-  border-radius: 5px;
-  background: #e0ddcf;
+  background: var(--green-60);
+  font-weight: 600;
 }
 .login-btn {
   width: 80px;
@@ -562,6 +562,17 @@ h1 {
   outline: none;
   border-radius: 5px;
   background: #e0ddcf;
+}
+.transfar-op-one {
+  width: 100%;
+  height: 100%;
+  background: #312244;
+}
+
+.transfar-op-two {
+  width: 100%;
+  height: 100%;
+  background: #666;
 }
 
 .transfar-op-one button {
