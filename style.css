@@ -512,12 +512,12 @@ h1 {
 
 .movements__type--deposit {
   /* background-image: linear-gradient(to top left, #39b385, #9be15d); */
-  background: #0ead69;
+  background: #607744;
 }
 
 .movements__type--withdrawal {
   /* background-image: linear-gradient(to top left, #e52a5a, #ff585f); */
-  background: #f94144;
+  background: #b39c4d;
 }
 
 #movements::-webkit-scrollbar-track {
@@ -538,7 +538,7 @@ h1 {
 
 .transfar_options {
   text-align: center;
-  height: 400px;
+  height: 380px;
   background: var(--green-60);
   flex: 0 0 50%;
   display: flex;
@@ -564,12 +564,14 @@ h1 {
   background: #e0ddcf;
 }
 .transfar-op-one {
+  padding-top: 50px;
   width: 100%;
   height: 100%;
   background: #312244;
 }
 
 .transfar-op-two {
+  padding-top: 50px;
   width: 100%;
   height: 100%;
   background: #666;
@@ -640,6 +642,7 @@ h1 {
   }
   .transfar_options {
     flex: 0 0 100%;
+    flex-direction: column;
   }
   .bottom_section {
     margin-top: 300px;
