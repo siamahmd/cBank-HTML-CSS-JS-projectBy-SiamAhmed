@@ -109,7 +109,12 @@ ul li {
 }
 #sidebar.hide {
   width: 60px;
-  background: var(--dark);
+}
+#sidebar.hide .side-menu {
+  padding-left: 10px;
+}
+#sidebar.hide .side-menu-text {
+  display: none;
 }
 #sidebar.hide .brand {
   background: var(--dark);
@@ -375,7 +380,7 @@ h1 {
 /* NAVBAR */
 
 #dashboard_content {
-  background: var(--gray);
+  background: #a1cca5;
   padding: 0px 10px 0px 10px;
   display: flex;
   flex-direction: column;
@@ -390,7 +395,6 @@ h1 {
 /* STATISTIC   */
 
 .statistic-section {
-  background: #dad7cd;
   height: 200px;
   display: flex;
   flex-wrap: wrap;
@@ -539,7 +543,6 @@ h1 {
 .transfar_options {
   text-align: center;
   height: 380px;
-  background: var(--green-60);
   flex: 0 0 50%;
   display: flex;
   /* flex-direction: column; */
@@ -564,17 +567,19 @@ h1 {
   background: #e0ddcf;
 }
 .transfar-op-one {
-  padding-top: 50px;
+  padding-top: 40px;
   width: 100%;
   height: 100%;
-  background: #312244;
+  background: #f1a208;
+  border-top-left-radius: 10px;
 }
 
 .transfar-op-two {
-  padding-top: 50px;
+  padding-top: 40px;
   width: 100%;
   height: 100%;
-  background: #666;
+  background: #2d6a4f;
+  border-top-right-radius: 10px;
 }
 
 .transfar-op-one button {
@@ -643,6 +648,12 @@ h1 {
   .transfar_options {
     flex: 0 0 100%;
     flex-direction: column;
+  }
+  .transfar-op-one {
+    padding-bottom: 30px;
+  }
+  .transfar-op-two {
+    padding-bottom: 30px;
   }
   .bottom_section {
     margin-top: 300px;
