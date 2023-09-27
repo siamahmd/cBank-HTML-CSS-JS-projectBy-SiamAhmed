@@ -78,7 +78,7 @@ x.addListener(toggleWithResize);
 ////////////////////// Data ///////////////////////////
 /////////////////////////////////////////////////
 const account1 = {
-  owner: "Jonas Schmedtmann",
+  owner: "Hobert Williams",
   imgSrc: "https://source.unsplash.com/c_GmwfHBDzk",
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
   interestRate: 1.2, // %
@@ -86,7 +86,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: "Jessica Davis",
+  owner: "Terry Torres",
   imgSrc: "https://source.unsplash.com/rDEOVtE7vOs",
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
@@ -94,7 +94,7 @@ const account2 = {
 };
 
 const account3 = {
-  owner: "Steven Thomas Williams",
+  owner: "Erin Williams",
   imgSrc: "https://source.unsplash.com/khV4fTy6-D8",
   movements: [200, -200, 340, -300, -20, 50, 400, -460],
   interestRate: 0.7,
@@ -102,14 +102,22 @@ const account3 = {
 };
 
 const account4 = {
-  owner: "Sarah Smith",
+  owner: "Adam Jones",
   imgSrc: "https://source.unsplash.com/jzz_3jWMzHA",
   movements: [430, 1000, 700, 50, 90],
   interestRate: 1,
   pin: 4444,
 };
 
-const accounts = [account1, account2, account3, account4];
+const account5 = {
+  owner: "Annie Kendig",
+  imgSrc: "https://source.unsplash.com/jzz_3jWMzHA",
+  movements: [430, 1000, 700, 50, 90],
+  interestRate: 1,
+  pin: 5555,
+};
+
+const accounts = [account1, account2, account3, account4, account5];
 
 /////////////////////////////////////////////////
 ////////////////////// Functions ///////////////////////////
